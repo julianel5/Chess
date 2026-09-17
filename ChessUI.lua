@@ -118,7 +118,7 @@ end
 -- ---- mapping de coordenadas ----
 local function logicIdx(B, dr, dc)
   if B.state.flipped then
-    return (8 - dr) * 8 + (9 - dc)
+    return (dr - 1) * 8 + (9 - dc)
   end
   return (8 - dr) * 8 + dc
 end
@@ -126,7 +126,7 @@ end
 local function displayPos(B, sq)
   local r = Engine.row(sq)
   local c = Engine.col(sq)
-  if B.state.flipped then return 9 - r, 9 - c end
+  if B.state.flipped then return r, 9 - c end
   return 9 - r, c
 end
 
