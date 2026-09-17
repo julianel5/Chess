@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: Ajedrez
+## Notes: Juega ajedrez contra la maquina u otros jugadores (WoW 3.3.5)
+## Author: opencode
+## Version: 2.0.0
+## SavedVariables: ChessOptions
+
+ChessEngine.lua
+ChessNet.lua
+ChessUI.lua

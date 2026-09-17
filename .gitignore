@@ -1,0 +1,16 @@
+# Empaquetados y temporales
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+*.swp
+*~
+.idea/
+.vscode/
